@@ -1,0 +1,523 @@
+body, html {
+  font-family: "Helevtica Neue", Arial, "Microsoft Yahei", Helvetica, sans-serif, Lato;
+  font-size: 14px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  display: block;
+}
+a, body, html {
+  color: #000;
+  text-decoration: none;
+}
+#op-wrap {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+#op-content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: all .3s ease;
+}
+.top-tip {
+  background: #c00;
+  text-align: center;
+  width: 100%;
+  padding: 13px 0;
+  position: relative;
+  z-index: 101;
+}
+.top-tip > p {
+  margin: 0;
+}
+.top-tip a {
+  color: #fff;
+}
+.top-tip .close-hint {
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 21px;
+  border-radius: 50%;
+  background: #fff;
+  color: #333;
+  right: 30px;
+  top: 10px;
+}
+.op-top-header {
+  width: 100%;
+  position: relative;
+  z-index: 100;
+  left: 0;
+  top: 0;
+}
+.op-top-box {
+  height: 80px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  max-width: 1200px;
+}
+#op-logo {
+  width: 44px;
+  height: 44px;
+  display: block;
+  margin: 17px 0 0 23px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 21;
+}
+.op-r-btns {
+  width: 198px;
+  height: 50px;
+  padding-top: 30px;
+  white-space: nowrap;
+  position: relative;
+  z-index: 20;
+  box-sizing: content-box;
+  float: right;
+}
+.op-r-btns .icon {
+  width: 24px;
+  height: 100%;
+  padding: 0 20px;
+  display: inline-block;
+}
+.op-r-btns .i-search span {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-position: 0 -74px;
+  background-image: url(http://statics.oneplus.cn/v2/img/common/icons-mb-1x-sb5696c0012.png);
+}
+.op-r-btns .i-search span:hover {
+  background-position: 0 -98px;
+  background-image: url(http://statics.oneplus.cn/v2/img/common/icons-mb-1x-sb5696c0012.png);
+}
+.op-r-btns .i-cart {
+  position: relative;
+  top: 0;
+}
+.op-r-btns .i-cart a {
+  display: inline-block;
+}
+.op-r-btns .i-cart .icon-bg {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-position: 0 -204px;
+  background-image: url(http://statics.oneplus.cn/v2/img/common/icons-mb-1x-sb5696c0012.png);
+}
+.op-r-btns .i-cart .icon-bg:hover {
+  background-position: 0 -228px;
+  background-image: url(http://statics.oneplus.cn/v2/img/common/icons-mb-1x-sb5696c0012.png);
+}
+.op-r-btns .i-user a {
+  display: inline-block;
+}
+.op-r-btns .i-user span {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: url(http://statics.oneplus.cn/v2/img/common/icons/icon_person.png)
+}
+.op-r-btns .i-user span:hover {
+  background: url(http://statics.oneplus.cn/v2/img/common/icons/icon_person_hover.png)
+}
+#op-nav-box {
+  padding: 0 168px 0 70px;
+  position: relative;
+  z-index: 10;
+}
+.op-nav-box {
+  position: relative;
+  z-index: 9;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+.op-top-menu li {
+  display: inline-block;
+  position: relative;
+  height: 80px;
+}
+.op-top-menu li:hover i{
+  bottom: 0;
+}
+.op-top-menu li:hover .op-top-menu-lia {
+  color: #000;
+}
+.op-top-menu-lia {
+  padding: 0 30px;
+  position: relative;
+  display: block;
+  height: 100%;
+  line-height: 80px;
+  color: #7e7e7e;
+  overflow: hidden;
+}
+.op-top-menu .op-top-menu-lia i {
+  height: 5px;
+  background: #eb0028;
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: -5px;
+  transition: bottom .2s .2s;
+}
+.design-canvas {
+  flex-direction: column;
+}
+.flex {
+  display: flex;
+}
+.design-canvas > .section-row {
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+}
+.design-canvas .section-row .sections {
+  width: 100%;
+  display: flex;
+}
+.section-row .sections .section-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.main-banner {
+  font-family: SlateforOnePlusRegular,Yinheiw4,"Microsoft YaHei",Arial;
+}
+#homebanner-oneplus5 {
+  width: 100%;
+  background: #d1d1d1;
+  position: relative;
+  text-align: center;
+}
+#homebanner-oneplus5 .text {
+  position: absolute;
+  margin-top: 15%;
+  left: 26%;
+  max-width: 520px;
+  z-index: 1;
+  top: 0;
+  color: #000;
+}
+@keyframes  show {
+  from {
+    transform: translate3d(0, 30px, 0);
+    opacity: 0;
+  }
+
+  to {
+  transform: none;
+  opacity: 1;
+  }
+}
+#homebanner-oneplus5 h2 {
+  animation-duration: .8s;
+  animation-fill-mode: both;
+  animation-name: show;
+}
+#homebanner-oneplus5 h3 {
+  animation-duration: 1.2s;
+  animation-fill-mode: both;
+  animation-name: show;
+}
+#homebanner-oneplus5 a {
+  animation-duration: 1.4s;
+  animation-fill-mode: both;
+  animation-name: show;
+}
+#homebanner-oneplus5 h2 img {
+  min-width: 250px;
+  width: 100%;
+}
+#homebanner-oneplus5 h3 {
+  font-size: 20px;
+  line-height: 1.5em;
+  margin: 20px auto;
+}
+#homebanner-oneplus5 a {
+  font-size: 16px;
+  width: 150px;
+  height: 50px;
+  display: inline-block;
+  line-height: 50px;
+  border: 1px solid #000;
+  margin-bottom: 20px;
+}
+#homebanner-oneplus5 .phone-5-soft-gold {
+  width: 100%;
+  background-image: url(http://image01.oneplus.cn/shop/201711/27/1404/2c8cd018689a60b65963f10701425fc4.png);
+  padding-bottom: 56.25%;
+  background-size: cover;
+}
+.top-recommend li {
+  float: left;
+  position: relative;
+  width: 33.33333%
+}
+.top-recommend li h4 {
+  font-size: 20px;
+  position: absolute;
+  font-weight: 400;
+  top: 7.8125%;
+  left: 5.46875%;
+  margin: 0;
+}
+.top-recommend li .img-box img {
+  width: 100%;
+  display: block;
+}
+#op-content .odop {
+  position: relative;
+}
+.part3 .img-box {
+  height: 37.5vw;
+  background: url(http://image01.oneplus.cn/shop/201802/11/776/0ad8faf18d4da5e7802ef47c083e01f2.jpg) no-repeat center;
+  background-size: cover;
+}
+#op-content .odop .odop-text {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  margin-top: -70px;
+  text-align: center;
+  color: #fff;
+}
+#op-content .odop .odop-text .h3 {
+  font-size: 48px;
+}
+#op-content .odop .odop-text .h4 {
+  margin: 20px 0 40px;
+}
+#op-content .odop .odop-text .opod-btn {
+  display: inline-block;
+  width: 130px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 14px;
+  background: 0 0;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: color .15s ease 0s;
+  position: relative;
+  padding: 0;
+  box-sizing: content-box;
+  cursor: pointer;
+  z-index: 1;
+}
+#op-content .odop .odop-text .opod-btn:hover {
+  color: #000;
+}
+#op-content .odop .odop-text .opod-btn::before {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 0;
+  height: 42px;
+  background: #fff;
+  content: "";
+  transition: width .15s ease 0s;
+  z-index: -1;
+}
+#op-content .odop .odop-text .opod-btn:hover::before {
+  width: 132px;
+}
+.bottom-promos {
+  background: #f6f6f6;
+  padding: 5.98958% 0;
+}
+.bottom-promos .inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.bottom-promos ul {
+  white-space: nowrap;
+}
+.bottom-promos li {
+  background: #fff;
+  display: inline-block;
+  width: 32.16667%;
+  transition: all .3s;
+  margin-right: 1.5%;
+  vertical-align: middle;
+}
+.bottom-promos li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .6);
+}
+.bottom-promos li img {
+  width: 100%;
+}
+.bottom-promos .tit-desc-panel {
+  min-height: 110px;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 5.95855% 6.99482%;
+  color: #333;
+}
+.bottom-promos .tit-desc-panel h4 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 34px;
+  margin: 0;
+}
+.bottom-promos .tit-desc-panel p {
+  font-size: 12px;
+  line-height: 1.5;
+  white-space: normal;
+  margin: 0;
+}
+.ft-service {
+  background: #fff;
+  margin-bottom: -1px;
+  height: 100%;
+}
+.ft-service .service-wrap {
+  height: 100%;
+  width: 93.75%;
+  max-width: 1200px;
+  margin: auto;
+  border-bottom: 2px solid #e4e4e4;
+}
+.ft-service li {
+  font-size: 14px;
+  width: 25%;
+  float: left;
+  text-align: center;
+  padding: 35px 0;
+}
+.ft-service .i-7d-return {
+  background-image: url(http://statics.oneplus.cn/v2/img/common/serviceIcons-sd81bbaa639.png);
+  background-position: 0 -400px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 80px;
+}
+.ft-service li span {
+  display: block;
+  padding-top: 15px;
+}
+.ft-service .i-15d-return {
+  background-image: url(http://statics.oneplus.cn/v2/img/common/serviceIcons-sd81bbaa639.png);
+  background-position: 0 0;
+  display: inline-block;
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 80px;  
+}
+.ft-service .i-30d-swap {
+  background-image: url(http://statics.oneplus.cn/v2/img/common/serviceIcons-sd81bbaa639.png);
+  background-position: 0 -240px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 80px; 
+}
+.ft-service .i-free-send {
+  background-image: url(http://statics.oneplus.cn/v2/img/common/serviceIcons-sd81bbaa639.png);
+  background-position: 0 -560px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 80px; 
+}
+.op-footer {
+  font-size: 14px;
+  background: #fff;
+  font-family: Yinheiw3, "Microsoft YaHei", Arail;
+  width: 100%;
+}
+.op-footer-link {
+  border-bottom: 1px solid #f1f1f1;
+  border-top: 1px solid #f1f1f1;
+}
+.op-footer-wrap {
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.op-footer-wrap .op-row {
+  padding: 70px 0 60px;
+  max-width: 1200px;
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+}
+#op-footer .footer-item {
+  width: 18.5%;
+}
+#op-footer .footer-item .tit {
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+#op-footer .footer-item a {
+  line-height: 30px;
+  font-size: 14px;
+  color: #666;
+}
+#op-footer .footer-kf {
+  position: absolute;
+  right: 0;
+}
+#op-footer .op-footer-phone {
+  font-size: 3.3rem;
+  color: #666;
+  white-space: nowrap;
+}
+#op-footer .linehot {
+  min-width: 160px;
+  height: 50px;
+  display: block;
+  box-sizing: border-box;
+  line-height: 50px;
+  font-size: 14px;
+  margin-top: 20px;
+  text-align: center;
+  border: 1px solid #000;
+  background: #fff;
+  padding: 0;
+}
+#op-footer .footer-kf .online-time {
+  margin-top: 15px;
+  text-align: center;
+}
+.footer-kf .weixin {
+  position: relative;
+  margin-top: 20px;
+  text-align: center;
+}
+.footer-kf .weixin a {
+  display: inline-block;
+  margin-left: 10px;
+  transform: translateY(5px);
+}
+.footer-kf .weixin .QR-Code {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 25px;
+  transform: translateX(-50%);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+}
